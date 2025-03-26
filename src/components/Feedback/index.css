@@ -1,0 +1,107 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  font-family: "Roboto";
+}
+
+.card {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 605px;
+}
+
+.feedback-question-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head1 {
+  color: #0f172a;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.emoji-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 33px;
+  padding: 0px;
+}
+
+.button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.img1 {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.para1 {
+  color: #1e293b;
+  font-size: 15px;
+}
+
+.thanks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2 {
+  width: 60px;
+  height: 55px;
+  margin-top: 15px;
+}
+
+.head2 {
+  color: #0f172a;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.para2 {
+  color: #0f172a;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 33px;
+  }
+
+  .img1 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .para1 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    padding: 63px;
+  }
+  .head1 {
+    font-size: 33px;
+  }
+}
